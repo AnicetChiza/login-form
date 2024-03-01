@@ -26,3 +26,8 @@ body {
 .general-section {
     display: flex;
 }
+
+.general-section .first-bloc {
+    color: #fff;
+    background-color: rgb(63, 141, 134);
+}
