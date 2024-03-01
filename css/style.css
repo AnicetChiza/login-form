@@ -32,7 +32,6 @@ body {
 .general-section .first-bloc {
     color: #fff;
     padding: 20px 60px;
-    text-align: center;
     background-color: rgb(63, 141, 134);
 }
 
@@ -108,10 +107,15 @@ body {
     font-family: "Outfit", sans-serif;
 }
 
+.general-section .second-bloc form div i {
+    color: rgb(63, 141, 134);
+}
+
 .general-section .second-bloc form button {
     border-radius: 20px;
-    padding: 10px 30px;
+    padding: 10px 40px;
     color: #fff;
+    cursor: pointer;
     margin-top: 20px;
     text-transform: uppercase;
     background-color: rgb(63, 141, 134);
