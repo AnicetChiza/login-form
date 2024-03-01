@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
@@ -82,4 +83,25 @@ body {
     border-radius: 50%;
     color: rgb(63, 141, 134);
     background-color: #d3d3d3;
+}
+
+.general-section .second-bloc form {
+    margin-top: 20px;
+}
+
+.general-section .second-bloc form p {
+    color: #d3d3d3;
+}
+
+.general-section .second-bloc form div {
+    margin-top: 5px;
+    padding: 10px 15px;
+    display: flex;
+    gap: 10px;
+    background-color: #d3d3d3;
+}
+
+.general-section .second-bloc form div input {
+    background: unset;
+    font-family: "Outfit", sans-serif;
 }
