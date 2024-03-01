@@ -60,6 +60,23 @@ body {
 /** FOR OUR SECOND BLOC **/
 
 .general-section .second-bloc {
-    padding: 10px 60px;
+    padding: 20px 80px;
     text-align: center;
+    background-color: #fff;
+}
+
+.general-section .second-bloc h1 {
+    margin-bottom: 20px;
+    color: rgb(63, 141, 134);
+}
+
+.general-section .second-bloc .icons {
+    display: flex;
+}
+
+.general-section .second-bloc .icons i {
+    padding: 10px 11px;
+    border-radius: 50%;
+    color: rgb(63, 141, 134);
+    background-color: #d3d3d3;
 }
