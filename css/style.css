@@ -82,7 +82,7 @@ body {
     padding: 10px 11px;
     border-radius: 50%;
     color: rgb(63, 141, 134);
-    background-color: #d3d3d3;
+    background-color: rgba(237, 240, 239, 0.925);
 }
 
 .general-section .second-bloc form {
@@ -98,10 +98,21 @@ body {
     padding: 10px 15px;
     display: flex;
     gap: 10px;
-    background-color: #d3d3d3;
+    -webkit-column-gap: 10px;
+    background-color: rgba(237, 240, 239, 0.925);
 }
 
 .general-section .second-bloc form div input {
+    width: 100%;
     background: unset;
     font-family: "Outfit", sans-serif;
+}
+
+.general-section .second-bloc form button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    background-color: rgb(63, 141, 134);
 }
