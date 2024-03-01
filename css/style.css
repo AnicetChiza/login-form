@@ -29,5 +29,16 @@ body {
 
 .general-section .first-bloc {
     color: #fff;
+    padding: 20px 60px;
+    text-align: center;
     background-color: rgb(63, 141, 134);
+}
+
+.general-section .first-bloc h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.general-section .first-bloc .welcome {
+    margin-top: 15px;
 }
