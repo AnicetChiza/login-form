@@ -36,7 +36,7 @@ body {
 }
 
 .general-section .first-bloc h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 15px;
 }
 
@@ -72,6 +72,9 @@ body {
 
 .general-section .second-bloc .icons {
     display: flex;
+    gap: 5px;
+    -webkit-column-gap: 5px;
+    justify-content: center;
 }
 
 .general-section .second-bloc .icons i {
