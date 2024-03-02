@@ -13,7 +13,6 @@ signinbtn.onclick = function() {
 signupbtn.onclick = function() {
     inputfield.style.display = 'inline-block';
     text.innerHTML = 'Create Account';
-    inputfield.style.display = '';
     signinbtn.classList.add('disable');
     signupbtn.classList.remove('disable');
 }
@@ -26,7 +25,12 @@ function validateForm() {
     let errorName = document.querySelector('.error-name');
     let errorEmail = document.querySelector('.error-email');
     let errorPassword = document.querySelector('.error-password');
+    let emptyData = document.querySelector('.empty-data');
 
+    if (names === '' && email === '' && password === '') {
+        emptyData.style.display = 'inline-block';
+        return false;
+    }
     if (names == '') {
         errorName.style.display = 'inline-block';
         return false;
