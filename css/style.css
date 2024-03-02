@@ -97,7 +97,7 @@ body {
     color: #d3d3d3;
 }
 
-.general-section .second-bloc form .inputs div {
+.general-section .second-bloc form .inputs .all-input {
     margin-top: 8px;
     padding: 15px 15px;
     display: flex;
@@ -110,17 +110,19 @@ general-section .second-bloc form .inputs {
     display: flex;
 }
 
-.general-section .second-bloc form div input {
+.general-section .second-bloc form .all-input input {
     width: 100%;
     background: unset;
     font-family: "Outfit", sans-serif;
 }
 
-.general-section .second-bloc form div i {
+.general-section .second-bloc form .all-input i {
     opacity: 0.2;
 }
 
-.general-section .second-bloc form .inputs .error-message {
+.general-section .error-name,
+.error-email,
+.error-password {
     text-align: start;
     color: #a33737;
     font-size: 0.8rem;
@@ -144,19 +146,6 @@ general-section .second-bloc form .inputs {
     border: 2px solid rgb(63, 141, 134);
     background-color: rgb(63, 141, 134);
 }
-
-
-/*.general-section .second-bloc .signupBtn {
-    color: #fff;
-    border: 2px solid rgb(63, 141, 134);
-    background-color: rgb(63, 141, 134);
-}
-
-.general-section .second-bloc .signinBtn {
-    color: rgb(63, 141, 134);
-    border: 2px solid rgb(63, 141, 134);
-    background: none;
-}*/
 
 .general-section .second-bloc .disable {
     color: rgb(63, 141, 134);
