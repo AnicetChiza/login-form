@@ -106,10 +106,6 @@ body {
     background-color: #e2e1e199;
 }
 
-general-section .second-bloc form .inputs {
-    display: flex;
-}
-
 .general-section .second-bloc form .all-input input {
     width: 100%;
     background: unset;
@@ -127,6 +123,41 @@ general-section .second-bloc form .inputs {
     color: #a33737;
     font-size: 0.8rem;
     display: none;
+}
+
+.general-section .forgotten-password .about-forget {
+    display: flex;
+    gap: 5px;
+    -webkit-column-gap: 5px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+.general-section .forgotten-password .about-forget p {
+    color: #000;
+}
+
+.general-section .forgotten-password .about-forget a {
+    color: rgb(63, 141, 134);
+}
+
+.general-section .forgotten-password .empty-data {
+    display: none;
+}
+
+.general-section .forgotten-password .empty-data div {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    text-align: start;
+    color: #a33737;
+    margin-top: 10px;
+    gap: 5px;
+    -webkit-column-gap: 5px;
+}
+
+.general-section .forgotten-password .empty-data p {
+    color: #a33737;
 }
 
 .general-section .second-bloc .buttons {
