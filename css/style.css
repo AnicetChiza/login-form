@@ -60,7 +60,7 @@ body {
 /** FOR OUR SECOND BLOC **/
 
 .general-section .second-bloc {
-    padding: 20px 80px;
+    padding: 20px 100px;
     text-align: center;
     background-color: #fff;
 }
@@ -93,7 +93,7 @@ body {
 }
 
 .general-section .second-bloc form div {
-    margin-top: 5px;
+    margin-top: 8px;
     padding: 10px 15px;
     display: flex;
     gap: 10px;
@@ -108,7 +108,7 @@ body {
 }
 
 .general-section .second-bloc form div i {
-    color: rgb(63, 141, 134);
+    opacity: 0.2;
 }
 
 .general-section .second-bloc form button {
