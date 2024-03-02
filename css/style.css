@@ -106,6 +106,10 @@ body {
     background-color: #e2e1e199;
 }
 
+general-section .second-bloc form .inputs {
+    display: flex;
+}
+
 .general-section .second-bloc form div input {
     width: 100%;
     background: unset;
@@ -129,9 +133,13 @@ body {
     cursor: pointer;
     margin-top: 20px;
     text-transform: uppercase;
+    color: #fff;
+    border: 2px solid rgb(63, 141, 134);
+    background-color: rgb(63, 141, 134);
 }
 
-.general-section .second-bloc .signupBtn {
+
+/*.general-section .second-bloc .signupBtn {
     color: #fff;
     border: 2px solid rgb(63, 141, 134);
     background-color: rgb(63, 141, 134);
@@ -141,4 +149,10 @@ body {
     color: rgb(63, 141, 134);
     border: 2px solid rgb(63, 141, 134);
     background: none;
+}*/
+
+.general-section .second-bloc .disable {
+    color: rgb(63, 141, 134);
+    border: 2px solid #d3d3d3;
+    background-color: #d3d3d3;
 }
