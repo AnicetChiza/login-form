@@ -97,7 +97,7 @@ body {
     color: #d3d3d3;
 }
 
-.general-section .second-bloc form div {
+.general-section .second-bloc form .inputs div {
     margin-top: 8px;
     padding: 15px 15px;
     display: flex;
