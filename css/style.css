@@ -120,6 +120,13 @@ general-section .second-bloc form .inputs {
     opacity: 0.2;
 }
 
+.general-section .second-bloc form .inputs .error-message {
+    text-align: start;
+    color: #a33737;
+    font-size: 0.8rem;
+    display: none;
+}
+
 .general-section .second-bloc .buttons {
     display: flex;
     gap: 5px;
