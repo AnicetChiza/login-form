@@ -116,12 +116,29 @@ body {
     opacity: 0.2;
 }
 
-.general-section .second-bloc form button {
+.general-section .second-bloc .buttons {
+    display: flex;
+    gap: 5px;
+    -webkit-column-gap: 5px;
+    justify-content: center;
+}
+
+.general-section .second-bloc .btn {
     border-radius: 20px;
     padding: 10px 40px;
-    color: #fff;
     cursor: pointer;
     margin-top: 20px;
     text-transform: uppercase;
+}
+
+.general-section .second-bloc .signupBtn {
+    color: #fff;
+    border: 2px solid rgb(63, 141, 134);
     background-color: rgb(63, 141, 134);
+}
+
+.general-section .second-bloc .signinBtn {
+    color: rgb(63, 141, 134);
+    border: 2px solid rgb(63, 141, 134);
+    background: none;
 }
