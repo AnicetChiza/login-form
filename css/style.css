@@ -160,14 +160,7 @@ body {
     color: #a33737;
 }
 
-.general-section .second-bloc .buttons {
-    display: flex;
-    gap: 5px;
-    -webkit-column-gap: 5px;
-    justify-content: center;
-}
-
-.general-section .second-bloc .btn {
+.general-section .second-bloc .button button {
     border-radius: 20px;
     padding: 10px 40px;
     cursor: pointer;
@@ -176,10 +169,4 @@ body {
     color: #fff;
     border: 2px solid rgb(63, 141, 134);
     background-color: rgb(63, 141, 134);
-}
-
-.general-section .second-bloc .disable {
-    color: rgb(63, 141, 134);
-    border: 2px solid #d3d3d3;
-    background-color: #d3d3d3;
 }

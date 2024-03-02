@@ -1,23 +1,3 @@
-let signupbtn = document.querySelector('.signupBtn');
-let signinbtn = document.querySelector('.signinBtn');
-let text = document.querySelector('.title');
-let inputfield = document.querySelector('.name');
-
-signinbtn.onclick = function() {
-    inputfield.style.display = 'none';
-    text.innerHTML = 'Sing in';
-    signupbtn.classList.add('disable');
-    signinbtn.classList.remove('disable');
-}
-
-signupbtn.onclick = function() {
-    inputfield.style.display = 'inline-block';
-    text.innerHTML = 'Create Account';
-    signinbtn.classList.add('disable');
-    signupbtn.classList.remove('disable');
-}
-
-
 function validateForm() {
     let names = document.querySelector('.name').value.trim();
     let email = document.querySelector('.email').value.trim();
@@ -42,6 +22,7 @@ function validateForm() {
     }
     if (password == '') {
         errorPassword.style.display = 'inline-block';
+        return false;
     }
     return true;
 }

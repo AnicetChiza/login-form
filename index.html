@@ -14,79 +14,92 @@
 </head>
 
 <body>
-    <section class="general-section">
-        <div class="first-bloc">
-            <div>
-                <h1>Hello friends!</h1>
-                <p>Enter your personal details please</p>
-                <p>and start your journey with us</p>
-                <a class="welcome" href="#">Welcome</a>
+    <section>
+        <div class="general-section">
+            <div class="first-bloc">
+                <div>
+                    <h1>Hello friends!</h1>
+                    <p>Enter your personal details please</p>
+                    <p>and start your journey with us</p>
+                    <a class="welcome" href="#">Welcome</a>
+                </div>
             </div>
-        </div>
-        <div class="second-bloc">
-            <h1 class="title">Create Account</h1>
-            <div class="icons">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-google"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-            </div>
-            <form action="" onsubmit="return validateForm()">
-                <p>Or you can use your email for registration</p>
-                <div class="inputs">
-                    <div class="all-input">
-                        <i class="fa-solid fa-user"></i>
-                        <input class="name" type="text" placeholder="Name">
-                    </div>
-                    <div class="error-name">
-                        <span>Please, full up your input name!</span>
-                        <i class="fa-solid fa-circle-exclamation"></i>
-                    </div>
+            <div class="second-bloc">
+                <h1 class="title">Create Account</h1>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
                 </div>
-                <div class="inputs">
-                    <div class="all-input">
-                        <i class="fa-solid fa-envelope"></i>
-                        <input class="email" type="email" placeholder="Enter your email">
-                    </div>
-                    <div class="error-email">
-                        <span>Please, full up your input password!</span>
-                        <i class="fa-solid fa-circle-exclamation"></i>
-                    </div>
-                </div>
-                <div class="inputs">
-                    <div class="all-input">
-                        <i class="fa-solid fa-unlock"></i>
-                        <input class="password" type="password" placeholder="Enter your password">
-                    </div>
-                    <div class="error-password">
-                        <span>Please, full up your input password!</span>
-                        <i class="fa-solid fa-circle-exclamation"></i>
-                    </div>
-                </div>
-
-                <div class="forgotten-password">
-                    <div class="about-forget">
-                        <p>Forgotten password </p>
-                        <a href="#">click here</a>
-                    </div>
-                    <div class="empty-data">
-                        <div>
-                            <p>Please enter the informations required</p>
+                <form action="" onsubmit="return validateForm()">
+                    <p>Or you can use your email for registration</p>
+                    <div class="inputs names">
+                        <div class="all-input">
+                            <i class="fa-solid fa-user"></i>
+                            <input class="name" type="text" placeholder="Name">
+                        </div>
+                        <div class="error-name">
+                            <span>Please, full up your input name!</span>
                             <i class="fa-solid fa-circle-exclamation"></i>
                         </div>
                     </div>
-                </div>
+                    <div class="inputs">
+                        <div class="all-input">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input class="email" type="email" placeholder="Enter your email">
+                        </div>
+                        <div class="error-email">
+                            <span>Please, full up your input password!</span>
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                        </div>
+                    </div>
+                    <div class="inputs">
+                        <div class="all-input">
+                            <i class="fa-solid fa-unlock"></i>
+                            <input class="password" type="password" placeholder="Enter your password">
+                        </div>
+                        <div class="error-password">
+                            <span>Please, full up your input password!</span>
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                        </div>
+                    </div>
 
-                <div class="buttons">
-                    <button type="submit" class="btn signupBtn">Sing up</button>
-                    <button type="submit" class="btn signinBtn disable">Sing in</button>
-                </div>
-            </form>
+                    <div class="forgotten-password">
+                        <div class="about-forget">
+                            <p>Forgotten password </p>
+                            <a href="#">click here</a>
+                        </div>
+                        <div class="empty-data">
+                            <div>
+                                <p>Please enter the informations required</p>
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <button type="submit">Sing up</button>
+                    </div>
+                </form>
+            </div>
         </div>
 
+        <div class="popup">
+            <div class="icon-close">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <div class="popup-message">
+                <h1>Welcome</h1>
+                <p>You have been successfully registered</p>
+                <p>You are allowed to start your journey with us</p>
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+        </div>
+
+        <div class="overall hidden"></div>
     </section>
 
-
-    <script src="./javascript/app.js"></script>
+    <script src="javascript/app.js"></script>
 </body>
 
 </html>
