@@ -99,11 +99,11 @@ body {
 
 .general-section .second-bloc form div {
     margin-top: 8px;
-    padding: 10px 15px;
+    padding: 15px 15px;
     display: flex;
     gap: 10px;
     -webkit-column-gap: 10px;
-    background-color: rgba(237, 240, 239, 0.925);
+    background-color: #e2e1e199;
 }
 
 .general-section .second-bloc form div input {
